@@ -116,7 +116,7 @@ public class Room implements AutoCloseable {
 					case LOGOFF:
 						Room.disconnectClient(client, this);
 						break;
-					// Coin Flip
+					// Coin Flip sp2673 11/16/22
 					case FLIP:
 						Random f = new Random();
 						int num = f.nextInt(2);
@@ -126,7 +126,7 @@ public class Room implements AutoCloseable {
 							sendMessage(client, "Flipped tails");
 						}
 						break;
-					// Roll a dice
+					// Roll a dice sp2673 11/16/22
 					case ROLL:
 						Random a = new Random();
 						int sum = a.nextInt(8) + 1;
@@ -176,8 +176,8 @@ public class Room implements AutoCloseable {
 	 * @param sender  The client sending the message
 	 * @param message The message to broadcast inside the room
 	 */
-	protected synchronized void sendMessage(ServerThread sender, String message) {
-		/***
+
+	 /***
 		 * 
 		 * if (message.contains(" **")|| message.contains(" __")||message.contains(s:
 		 * "** ")|| message.contains("**__")|| message.contains("__**")
@@ -194,7 +194,7 @@ public class Room implements AutoCloseable {
 		 * message.replace(" !!","<u>");
 		 * message.replace("!! ","</u>");
 		 */
-
+	protected synchronized void sendMessage(ServerThread sender, String message) {
 		if (message.contains("**") || message.contains("__") || message.contains("$$")) {
 			String[] word = message.split(" ");
 			message = "";
@@ -224,13 +224,13 @@ public class Room implements AutoCloseable {
 				if (word[i].endsWith("__")) {
 					word[i] = word[i].substring(0, word[i].length() - 2) + "</i>";
 				}
-				// underline
-				if (word[i].startsWith("^^")) {
+				// underline sp2673 11/16/22
+				if (word[i].startsWith(" !^")) {
 					word[i] = "<u>" + word[i].substring(2, word[i].length());
 				}
-				if (word[i].endsWith("^^")) {
+				if (word[i].endsWith("^! ")) {
 					word[i] = word[i].substring(0, word[i].length() - 2) + "</u>";
-				}
+				} //color
 				if (word[i].startsWith("#r")) {
 					word[i] = "<color = red>" + word[i].substring(2, word[i].length());
 				}
