@@ -225,10 +225,10 @@ public class Room implements AutoCloseable {
 					word[i] = word[i].substring(0, word[i].length() - 2) + "</i>";
 				}
 				// underline sp2673 11/16/22
-				if (word[i].startsWith(" !^")) {
+				if (word[i].startsWith("!^")) {
 					word[i] = "<u>" + word[i].substring(2, word[i].length());
 				}
-				if (word[i].endsWith("^! ")) {
+				if (word[i].endsWith("^!")) {
 					word[i] = word[i].substring(0, word[i].length() - 2) + "</u>";
 				} //color
 				if (word[i].startsWith("#r")) {
