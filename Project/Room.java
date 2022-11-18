@@ -1,8 +1,9 @@
-package Module5.Part5;
+package Project;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Random;
 
 public class Room implements AutoCloseable{
 	protected static Server server;// used to refer to accessible server functions
@@ -16,6 +17,9 @@ public class Room implements AutoCloseable{
 	private final static String DISCONNECT = "disconnect";
 	private final static String LOGOUT = "logout";
 	private final static String LOGOFF = "logoff";
+
+	private final static String FLIP = "flip";
+	private final static String ROLL = "roll";
 
 	public Room(String name) {
 		this.name = name;
@@ -113,6 +117,16 @@ public class Room implements AutoCloseable{
 					case LOGOUT:
 					case LOGOFF:
 						Room.disconnectClient(client, this);
+						break;
+					//Coin Flip 
+					case FLIP:
+					sendMessage(client,"Flipped a coin and got " + (Math.random() > .5 ? "heads" : "tails"));
+						break;
+					//Roll a dice 1-6
+					case ROLL:
+					Random rand = new Random();
+					int number = rand.nextInt(6)+1;
+					sendMessage(client,"Rolled a " + number);
 						break;
 					default:
 						wasCommand = false;
