@@ -1,10 +1,11 @@
 package Module5.Part5;
 
+import java.util.Random;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class Room implements AutoCloseable{
+public class Room implements AutoCloseable {
 	protected static Server server;// used to refer to accessible server functions
 	private String name;
 	private List<ServerThread> clients = new ArrayList<ServerThread>();
@@ -16,6 +17,8 @@ public class Room implements AutoCloseable{
 	private final static String DISCONNECT = "disconnect";
 	private final static String LOGOUT = "logout";
 	private final static String LOGOFF = "logoff";
+	private final static String FLIP = "flip";
+	private final static String ROLL = "roll";
 
 	public Room(String name) {
 		this.name = name;
@@ -50,11 +53,10 @@ public class Room implements AutoCloseable{
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}
-					//sendMessage(client, "joined the room " + getName());
+					// sendMessage(client, "joined the room " + getName());
 					sendConnectionStatus(client, true);
 				}
 			}.start();
-
 		}
 	}
 
@@ -66,7 +68,7 @@ public class Room implements AutoCloseable{
 		// we don't need to broadcast it to the server
 		// only to our own Room
 		if (clients.size() > 0) {
-			//sendMessage(client, "left the room");
+			// sendMessage(client, "left the room");
 			sendConnectionStatus(client, false);
 		}
 		checkClients();
@@ -114,6 +116,23 @@ public class Room implements AutoCloseable{
 					case LOGOFF:
 						Room.disconnectClient(client, this);
 						break;
+					// Coin Flip
+					case FLIP:
+						Random f = new Random();
+						int num = f.nextInt(2);
+						if (num == 0) {
+							sendMessage(client, "flipped heads");
+						} else {
+							sendMessage(client, "Flipped tails");
+						}
+						break;
+					// Roll a dice
+					case ROLL:
+						Random a = new Random();
+						int sum = a.nextInt(8) + 1;
+						sendMessage(client, "Rolled a " + sum);
+						break;
+
 					default:
 						wasCommand = false;
 						break;
@@ -129,7 +148,8 @@ public class Room implements AutoCloseable{
 	// Command helper methods
 	protected static void createRoom(String roomName, ServerThread client) {
 		if (server.createNewRoom(roomName)) {
-			server.joinRoom(roomName, client);
+			// server.joinRoom(roomName, client);
+			Room.joinRoom(roomName, client);
 		} else {
 			client.sendMessage("Server", String.format("Room %s already exists", roomName));
 		}
@@ -157,6 +177,70 @@ public class Room implements AutoCloseable{
 	 * @param message The message to broadcast inside the room
 	 */
 	protected synchronized void sendMessage(ServerThread sender, String message) {
+		/***
+		 * 
+		 * if (message.contains(" **")|| message.contains(" __")||message.contains(s:
+		 * "** ")|| message.contains("**__")|| message.contains("__**")
+		 * || message.contains("#r")|| message.contains("r#")|| message.contains("
+		 * !!")|| message.contains("!! ")) {
+		 * 
+		 * System.out.println(message.replace(" **","<b>"));
+		 * message.replace("** ","</b>");
+		 * message.replace(" __","<i>");
+		 * message.replace("**__","<b><i>");
+		 * message.replace("__**","</b></i>");
+		 * message.replace("#r","<color=red>");
+		 * message.replace("r#","</color>");
+		 * message.replace(" !!","<u>");
+		 * message.replace("!! ","</u>");
+		 */
+
+		if (message.contains("**") || message.contains("__") || message.contains("$$")) {
+			String[] word = message.split(" ");
+			message = "";
+			for (int i = 0; i < word.length; i++) {
+				if (word[i].startsWith("**__")) {
+					word[i] = "<b<i>" + word[i].substring(4, word[i].length());
+				}
+				if (word[i].endsWith("__**")) {
+					word[i] = word[i].substring(0, word[i].length() - 4) + "</i></b>";
+				}
+				if (word[i].startsWith("**^^")) {
+					word[i] = "<b<u>" + word[i].substring(4, word[i].length());
+				}
+				if (word[i].endsWith("^^**")) {
+					word[i] = word[i].substring(0, word[i].length() - 4) + "</u></b>";
+				}
+				if (word[i].startsWith("**")) {
+					word[i] = "<b>" + word[i].substring(2, word[i].length());
+				}
+				if (word[i].endsWith("**")) {
+					word[i] = word[i].substring(0, word[i].length() - 2) + "</b>";
+				}
+				// italics
+				if (word[i].startsWith("__")) {
+					word[i] = "<i>" + word[i].substring(2, word[i].length());
+				}
+				if (word[i].endsWith("__")) {
+					word[i] = word[i].substring(0, word[i].length() - 2) + "</i>";
+				}
+				// underline
+				if (word[i].startsWith("^^")) {
+					word[i] = "<u>" + word[i].substring(2, word[i].length());
+				}
+				if (word[i].endsWith("^^")) {
+					word[i] = word[i].substring(0, word[i].length() - 2) + "</u>";
+				}
+				if (word[i].startsWith("#r")) {
+					word[i] = "<color = red>" + word[i].substring(2, word[i].length());
+				}
+				if (word[i].endsWith("r#")) {
+					word[i] = word[i].substring(0, word[i].length() - 2) + "</color>";
+				}
+				message += word[i] + " ";
+			}
+		}
+
 		if (!isRunning) {
 			return;
 		}
@@ -165,7 +249,7 @@ public class Room implements AutoCloseable{
 			// it was a command, don't broadcast
 			return;
 		}
-		
+
 		String from = (sender == null ? "Room" : sender.getClientName());
 		Iterator<ServerThread> iter = clients.iterator();
 		while (iter.hasNext()) {
@@ -176,7 +260,10 @@ public class Room implements AutoCloseable{
 			}
 		}
 	}
-	protected synchronized void sendConnectionStatus(ServerThread sender, boolean isConnected){
+
+
+
+	protected synchronized void sendConnectionStatus(ServerThread sender, boolean isConnected) {
 		Iterator<ServerThread> iter = clients.iterator();
 		while (iter.hasNext()) {
 			ServerThread client = iter.next();
@@ -186,16 +273,16 @@ public class Room implements AutoCloseable{
 			}
 		}
 	}
-	private void handleDisconnect(Iterator<ServerThread> iter, ServerThread client){
+
+	private void handleDisconnect(Iterator<ServerThread> iter, ServerThread client) {
 		iter.remove();
-		info("Removed client " + client.getId());
+		info("Removed client " + client.getClientName());
 		checkClients();
-		sendMessage(null, client.getId() + " disconnected");
+		sendMessage(null, client.getClientName() + " disconnected");
 	}
+
 	public void close() {
 		server.removeRoom(this);
-		//NOTE: This will break all rooms
-		//be sure to remove/comment out server = null;
 		server = null;
 		isRunning = false;
 		clients = null;
