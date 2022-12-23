@@ -1,0 +1,32 @@
+Dec 22, 2022 3:24:31 PM Project.common.MyLogger info
+INFO: Project.client.views.UserInputPanel: Chosen username: shrey
+Dec 22, 2022 3:24:31 PM Project.common.MyLogger info
+INFO: Project.client.Client: Client connected
+Dec 22, 2022 3:24:31 PM Project.common.MyLogger info
+INFO: Project.client.Client: Listening for server messages
+Dec 22, 2022 3:24:31 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[shrey], Type[CONNECT], Message[null]
+Dec 22, 2022 3:24:35 PM Project.common.MyLogger info
+INFO: Project.client.views.UserInputPanel: Chosen username: shrey
+Dec 22, 2022 3:24:35 PM Project.common.MyLogger info
+INFO: Project.client.Client: Client connected
+Dec 22, 2022 3:24:35 PM Project.common.MyLogger info
+INFO: Project.client.Client: Listening for server messages
+Dec 22, 2022 3:24:35 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[shrey], Type[CONNECT], Message[null]
+Dec 22, 2022 3:26:11 PM Project.common.MyLogger info
+INFO: Project.client.views.UserInputPanel: Chosen username: shrey
+Dec 22, 2022 3:26:11 PM Project.common.MyLogger info
+INFO: Project.client.Client: Client connected
+Dec 22, 2022 3:26:11 PM Project.common.MyLogger info
+INFO: Project.client.Client: Listening for server messages
+Dec 22, 2022 3:26:11 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[shrey], Type[CONNECT], Message[null]
+Dec 22, 2022 3:26:19 PM Project.common.MyLogger info
+INFO: Project.client.views.UserInputPanel: Chosen username: shrey
+Dec 22, 2022 3:26:19 PM Project.common.MyLogger info
+INFO: Project.client.Client: Client connected
+Dec 22, 2022 3:26:19 PM Project.common.MyLogger info
+INFO: Project.client.Client: Listening for server messages
+Dec 22, 2022 3:26:19 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[shrey], Type[CONNECT], Message[null]

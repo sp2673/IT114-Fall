@@ -1,0 +1,158 @@
+Dec 22, 2022 4:19:04 PM Project.common.MyLogger info
+INFO: Project.client.views.UserInputPanel: Chosen username: test
+Dec 22, 2022 4:19:04 PM Project.common.MyLogger info
+INFO: Project.client.Client: Client connected
+Dec 22, 2022 4:19:04 PM Project.common.MyLogger info
+INFO: Project.client.Client: Listening for server messages
+Dec 22, 2022 4:19:04 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[test], Type[CONNECT], Message[null]
+Dec 22, 2022 4:19:04 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=786,height=600]
+Dec 22, 2022 4:19:04 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Adding test[10]
+Dec 22, 2022 4:19:04 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Clients in room: 1
+Dec 22, 2022 4:19:04 PM Project.common.MyLogger info
+INFO: Project.client.ClientUI: Adding test[10]
+Dec 22, 2022 4:19:04 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: test (10)
+Dec 22, 2022 4:19:04 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=232,height=596]
+Dec 22, 2022 4:19:04 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=554,height=600]
+Dec 22, 2022 4:19:04 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=623,height=600]
+Dec 22, 2022 4:19:04 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=603,height=600]
+Dec 22, 2022 4:19:04 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Clients in room: 1
+Dec 22, 2022 4:19:04 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Clients in room: 1
+Dec 22, 2022 4:19:04 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=609,height=600]
+Dec 22, 2022 4:19:04 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Clients in room: 1
+Dec 22, 2022 4:19:10 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[test], Type[MESSAGE], Message[/mute someone]
+Dec 22, 2022 4:21:44 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[test], Type[MESSAGE], Message[/logoff]
+Dec 22, 2022 4:21:44 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Removing test[10]
+Dec 22, 2022 4:21:44 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: I disconnected
+Dec 22, 2022 4:21:44 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Clients in room: 0
+Dec 22, 2022 4:21:44 PM Project.common.MyLogger info
+INFO: Project.client.ClientUI: Removing test[10]
+Dec 22, 2022 4:21:44 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: removing user list item for id 10
+Dec 22, 2022 4:21:44 PM Project.common.MyLogger info
+INFO: Project.client.ClientUI: I disconnected
+Dec 22, 2022 4:21:49 PM Project.common.MyLogger info
+INFO: Project.client.views.UserInputPanel: Chosen username: test
+Dec 22, 2022 4:21:49 PM Project.common.MyLogger info
+INFO: Project.client.Client: Client connected
+Dec 22, 2022 4:21:49 PM Project.common.MyLogger info
+INFO: Project.client.Client: Listening for server messages
+Dec 22, 2022 4:21:49 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[test], Type[CONNECT], Message[null]
+Dec 22, 2022 4:21:49 PM Project.common.MyLogger warning
+WARNING: Project.client.ClientUI: Received client id after already being set, this shouldn't happen
+Dec 22, 2022 4:21:49 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Adding test[11]
+Dec 22, 2022 4:21:49 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Clients in room: 1
+Dec 22, 2022 4:21:49 PM Project.common.MyLogger info
+INFO: Project.client.ClientUI: Adding test[11]
+Dec 22, 2022 4:21:49 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: test (11)
+Dec 22, 2022 4:21:49 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=179,height=596]
+Dec 22, 2022 4:21:56 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[test], Type[MESSAGE], Message[/disconnect]
+Dec 22, 2022 4:21:56 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Removing test[11]
+Dec 22, 2022 4:21:56 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: I disconnected
+Dec 22, 2022 4:21:56 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Clients in room: 0
+Dec 22, 2022 4:21:56 PM Project.common.MyLogger info
+INFO: Project.client.ClientUI: Removing test[11]
+Dec 22, 2022 4:21:56 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: removing user list item for id 11
+Dec 22, 2022 4:21:56 PM Project.common.MyLogger info
+INFO: Project.client.ClientUI: I disconnected
+Dec 22, 2022 4:21:58 PM Project.common.MyLogger info
+INFO: Project.client.views.UserInputPanel: Chosen username: test
+Dec 22, 2022 4:21:58 PM Project.common.MyLogger info
+INFO: Project.client.Client: Client connected
+Dec 22, 2022 4:21:58 PM Project.common.MyLogger info
+INFO: Project.client.Client: Listening for server messages
+Dec 22, 2022 4:21:58 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[test], Type[CONNECT], Message[null]
+Dec 22, 2022 4:21:58 PM Project.common.MyLogger warning
+WARNING: Project.client.ClientUI: Received client id after already being set, this shouldn't happen
+Dec 22, 2022 4:21:58 PM Project.common.MyLogger warning
+WARNING: Project.client.ClientUI: Received client id after already being set, this shouldn't happen
+Dec 22, 2022 4:21:58 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Adding test[12]
+Dec 22, 2022 4:21:58 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Clients in room: 1
+Dec 22, 2022 4:21:58 PM Project.common.MyLogger info
+INFO: Project.client.ClientUI: Adding test[12]
+Dec 22, 2022 4:21:58 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: test (12)
+Dec 22, 2022 4:21:58 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=179,height=596]
+Dec 22, 2022 4:22:07 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[test], Type[MESSAGE], Message[/logoff]
+Dec 22, 2022 4:22:07 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Removing test[12]
+Dec 22, 2022 4:22:07 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: I disconnected
+Dec 22, 2022 4:22:07 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Clients in room: 0
+Dec 22, 2022 4:22:07 PM Project.common.MyLogger info
+INFO: Project.client.ClientUI: Removing test[12]
+Dec 22, 2022 4:22:07 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: removing user list item for id 12
+Dec 22, 2022 4:22:07 PM Project.common.MyLogger info
+INFO: Project.client.ClientUI: I disconnected
+Dec 22, 2022 4:22:09 PM Project.common.MyLogger info
+INFO: Project.client.views.UserInputPanel: Chosen username: test
+Dec 22, 2022 4:22:09 PM Project.common.MyLogger info
+INFO: Project.client.Client: Client connected
+Dec 22, 2022 4:22:09 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[test], Type[CONNECT], Message[null]
+Dec 22, 2022 4:22:09 PM Project.common.MyLogger info
+INFO: Project.client.Client: Listening for server messages
+Dec 22, 2022 4:22:09 PM Project.common.MyLogger warning
+WARNING: Project.client.ClientUI: Received client id after already being set, this shouldn't happen
+Dec 22, 2022 4:22:09 PM Project.common.MyLogger warning
+WARNING: Project.client.ClientUI: Received client id after already being set, this shouldn't happen
+Dec 22, 2022 4:22:09 PM Project.common.MyLogger warning
+WARNING: Project.client.ClientUI: Received client id after already being set, this shouldn't happen
+Dec 22, 2022 4:22:09 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Adding test[13]
+Dec 22, 2022 4:22:09 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Clients in room: 1
+Dec 22, 2022 4:22:09 PM Project.common.MyLogger info
+INFO: Project.client.ClientUI: Adding test[13]
+Dec 22, 2022 4:22:09 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: test (13)
+Dec 22, 2022 4:22:09 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=179,height=596]
+Dec 22, 2022 4:22:21 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[test], Type[MESSAGE], Message[/createroom]
+Dec 22, 2022 4:22:31 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[test], Type[MESSAGE], Message[/joinroom]
+Dec 22, 2022 4:24:01 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[null], Type[DISCONNECT], Message[null]
+Dec 22, 2022 4:24:01 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Removing test[13]
+Dec 22, 2022 4:24:01 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: I disconnected
+Dec 22, 2022 4:24:01 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Clients in room: 0
+Dec 22, 2022 4:24:01 PM Project.common.MyLogger info
+INFO: Project.client.ClientUI: Removing test[13]

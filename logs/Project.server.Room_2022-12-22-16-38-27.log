@@ -1,0 +1,20 @@
+Dec 22, 2022 4:38:52 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[1], ClientName[null], Type[CLIENT_ID], Message[null]
+Dec 22, 2022 4:38:52 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[1], ClientName[user], FormattedName[<font color="#b5b8bc">user</font>], Type[CONNECT], Message[connected]
+Dec 22, 2022 4:38:52 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[0], ClientName[null], Type[JOIN_ROOM], Message[lobby]
+Dec 22, 2022 4:38:52 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Room[lobby] Syncing client list of 1 to user
+Dec 22, 2022 4:39:03 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 1 clients
+Dec 22, 2022 4:39:03 PM Project.common.MyLogger info
+INFO: Project.server.Room: Check here
+Dec 22, 2022 4:39:03 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 1 clients
+Dec 22, 2022 4:39:03 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[1], ClientName[null], Type[MESSAGE], Message[Rolled a 6]
+Dec 22, 2022 4:39:42 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 1 clients
+Dec 22, 2022 4:39:42 PM Project.common.MyLogger info
+INFO: Project.server.Room: Check here
