@@ -1,0 +1,38 @@
+Dec 22, 2022 4:41:55 PM Project.common.MyLogger info
+INFO: Project.client.views.UserInputPanel: Chosen username: test
+Dec 22, 2022 4:41:55 PM Project.common.MyLogger info
+INFO: Project.client.Client: Client connected
+Dec 22, 2022 4:41:55 PM Project.common.MyLogger info
+INFO: Project.client.Client: Listening for server messages
+Dec 22, 2022 4:41:55 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[test], Type[CONNECT], Message[null]
+Dec 22, 2022 4:41:55 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=786,height=600]
+Dec 22, 2022 4:41:55 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=554,height=600]
+Dec 22, 2022 4:41:55 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=623,height=600]
+Dec 22, 2022 4:41:55 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=603,height=600]
+Dec 22, 2022 4:41:55 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=609,height=600]
+Dec 22, 2022 4:41:55 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Adding test[1]
+Dec 22, 2022 4:41:55 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Clients in room: 1
+Dec 22, 2022 4:41:55 PM Project.common.MyLogger info
+INFO: Project.client.ClientUI: Adding test[1]
+Dec 22, 2022 4:41:55 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: test (1)
+Dec 22, 2022 4:41:55 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=179,height=596]
+Dec 22, 2022 4:42:04 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[test], Type[MESSAGE], Message[/mute here]
+Dec 22, 2022 4:42:51 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[test], Type[MESSAGE], Message[/mute]
+Dec 22, 2022 4:43:40 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[test], Type[MESSAGE], Message[/mute again]
+Dec 22, 2022 4:44:40 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[test], Type[MESSAGE], Message[/flip]
+Dec 22, 2022 4:44:43 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[test], Type[MESSAGE], Message[/roll]

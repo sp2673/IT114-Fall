@@ -1,0 +1,32 @@
+Dec 22, 2022 4:27:51 PM Project.common.MyLogger info
+INFO: Project.client.views.UserInputPanel: Chosen username: ss
+Dec 22, 2022 4:27:51 PM Project.common.MyLogger info
+INFO: Project.client.Client: Client connected
+Dec 22, 2022 4:27:51 PM Project.common.MyLogger info
+INFO: Project.client.Client: Listening for server messages
+Dec 22, 2022 4:27:51 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[ss], Type[CONNECT], Message[null]
+Dec 22, 2022 4:27:51 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=786,height=600]
+Dec 22, 2022 4:27:51 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Adding ss[14]
+Dec 22, 2022 4:27:51 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Clients in room: 1
+Dec 22, 2022 4:27:51 PM Project.common.MyLogger info
+INFO: Project.client.ClientUI: Adding ss[14]
+Dec 22, 2022 4:27:51 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: ss (14)
+Dec 22, 2022 4:27:51 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=232,height=596]
+Dec 22, 2022 4:27:51 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=554,height=600]
+Dec 22, 2022 4:27:51 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=623,height=600]
+Dec 22, 2022 4:27:51 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=603,height=600]
+Dec 22, 2022 4:27:51 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=609,height=600]
+Dec 22, 2022 4:27:55 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[ss], Type[MESSAGE], Message[/mute me]
+Dec 22, 2022 4:28:22 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[ss], Type[MESSAGE], Message[/unmute here]
