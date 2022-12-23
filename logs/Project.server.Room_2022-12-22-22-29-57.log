@@ -1,0 +1,208 @@
+Dec 22, 2022 10:30:26 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[1], ClientName[null], Type[CLIENT_ID], Message[null]
+Dec 22, 2022 10:30:26 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[1], ClientName[shrey], FormattedName[<font color="#7372a4">shrey</font>], Type[CONNECT], Message[connected]
+Dec 22, 2022 10:30:26 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[0], ClientName[null], Type[JOIN_ROOM], Message[lobby]
+Dec 22, 2022 10:30:26 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Room[lobby] Syncing client list of 1 to shrey
+Dec 22, 2022 10:31:02 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[null], Type[CLIENT_ID], Message[null]
+Dec 22, 2022 10:31:02 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[sam], FormattedName[<font color="#59e779">sam</font>], Type[CONNECT], Message[connected]
+Dec 22, 2022 10:31:02 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[sam], FormattedName[<font color="#59e779">sam</font>], Type[CONNECT], Message[connected]
+Dec 22, 2022 10:31:02 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[0], ClientName[null], Type[JOIN_ROOM], Message[lobby]
+Dec 22, 2022 10:31:02 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Room[lobby] Syncing client list of 2 to sam
+Dec 22, 2022 10:31:02 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[1], ClientName[shrey], FormattedName[<font color="#7372a4">shrey</font>], Type[SYNC_CLIENT], Message[null]
+Dec 22, 2022 10:31:16 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 2 clients
+Dec 22, 2022 10:31:16 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[null], Type[MESSAGE], Message[hi how are you]
+Dec 22, 2022 10:31:16 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[null], Type[MESSAGE], Message[hi how are you]
+Dec 22, 2022 10:31:25 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 2 clients
+Dec 22, 2022 10:31:25 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[1], ClientName[null], Type[MESSAGE], Message[sup man]
+Dec 22, 2022 10:31:25 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[1], ClientName[null], Type[MESSAGE], Message[sup man]
+Dec 22, 2022 10:31:33 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 2 clients
+Dec 22, 2022 10:31:33 PM Project.common.MyLogger info
+INFO: Project.server.Room: Check here
+Dec 22, 2022 10:31:33 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 2 clients
+Dec 22, 2022 10:31:33 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[1], ClientName[null], Type[MESSAGE], Message[Rolled a 5]
+Dec 22, 2022 10:31:33 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[1], ClientName[null], Type[MESSAGE], Message[Rolled a 5]
+Dec 22, 2022 10:31:46 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 2 clients
+Dec 22, 2022 10:31:46 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 2 clients
+Dec 22, 2022 10:31:46 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[null], Type[MESSAGE], Message[Flipped tails]
+Dec 22, 2022 10:31:46 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[null], Type[MESSAGE], Message[Flipped tails]
+Dec 22, 2022 10:31:55 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 2 clients
+Dec 22, 2022 10:31:55 PM Project.common.MyLogger info
+INFO: Project.server.Room: Check here
+Dec 22, 2022 10:31:55 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 2 clients
+Dec 22, 2022 10:31:55 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[null], Type[MESSAGE], Message[Rolled a 1]
+Dec 22, 2022 10:31:55 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[null], Type[MESSAGE], Message[Rolled a 1]
+Dec 22, 2022 10:31:59 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 2 clients
+Dec 22, 2022 10:31:59 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 2 clients
+Dec 22, 2022 10:31:59 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[null], Type[MESSAGE], Message[Flipped tails]
+Dec 22, 2022 10:31:59 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[null], Type[MESSAGE], Message[Flipped tails]
+Dec 22, 2022 10:33:20 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 2 clients
+Dec 22, 2022 10:33:20 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[null], Type[MESSAGE], Message[\\bold\\]
+Dec 22, 2022 10:33:20 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[null], Type[MESSAGE], Message[\\bold\\]
+Dec 22, 2022 10:33:41 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 2 clients
+Dec 22, 2022 10:33:41 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[null], Type[MESSAGE], Message[<u>red</u>]
+Dec 22, 2022 10:33:41 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[null], Type[MESSAGE], Message[<u>red</u>]
+Dec 22, 2022 10:34:19 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 2 clients
+Dec 22, 2022 10:34:19 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[null], Type[MESSAGE], Message[@shrey hi]
+Dec 22, 2022 10:34:19 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[null], Type[MESSAGE], Message[@shrey hi]
+Dec 22, 2022 10:34:19 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[null], Type[MESSAGE], Message[@shrey hi]
+Dec 22, 2022 10:34:58 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 2 clients
+Dec 22, 2022 10:34:58 PM Project.common.MyLogger info
+INFO: Project.server.Room: Print s: sam v:/mute
+Dec 22, 2022 10:35:05 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 2 clients
+Dec 22, 2022 10:35:19 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[3], ClientName[null], Type[CLIENT_ID], Message[null]
+Dec 22, 2022 10:35:19 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[3], ClientName[user], FormattedName[<font color="#9e5e93">user</font>], Type[CONNECT], Message[connected]
+Dec 22, 2022 10:35:19 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[3], ClientName[user], FormattedName[<font color="#9e5e93">user</font>], Type[CONNECT], Message[connected]
+Dec 22, 2022 10:35:19 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[3], ClientName[user], FormattedName[<font color="#9e5e93">user</font>], Type[CONNECT], Message[connected]
+Dec 22, 2022 10:35:19 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[0], ClientName[null], Type[JOIN_ROOM], Message[lobby]
+Dec 22, 2022 10:35:19 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Room[lobby] Syncing client list of 3 to user
+Dec 22, 2022 10:35:19 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[1], ClientName[shrey], FormattedName[<font color="#7372a4">shrey</font>], Type[SYNC_CLIENT], Message[null]
+Dec 22, 2022 10:35:19 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[sam], FormattedName[<font color="#59e779">sam</font>], Type[SYNC_CLIENT], Message[null]
+Dec 22, 2022 10:35:37 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 3 clients
+Dec 22, 2022 10:35:37 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[3], ClientName[null], Type[MESSAGE], Message[hi]
+Dec 22, 2022 10:35:37 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[3], ClientName[null], Type[MESSAGE], Message[hi]
+Dec 22, 2022 10:35:37 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[3], ClientName[null], Type[MESSAGE], Message[hi]
+Dec 22, 2022 10:35:55 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 3 clients
+Dec 22, 2022 10:35:55 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[3], ClientName[user], FormattedName[null], Type[DISCONNECT], Message[disconnected]
+Dec 22, 2022 10:35:55 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[3], ClientName[user], FormattedName[<font color="#9e5e93">user</font>], Type[DISCONNECT], Message[disconnected]
+Dec 22, 2022 10:35:55 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[3], ClientName[user], FormattedName[<font color="#9e5e93">user</font>], Type[DISCONNECT], Message[disconnected]
+Dec 22, 2022 10:36:04 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[4], ClientName[null], Type[CLIENT_ID], Message[null]
+Dec 22, 2022 10:36:04 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[4], ClientName[user], FormattedName[<font color="#9777f0">user</font>], Type[CONNECT], Message[connected]
+Dec 22, 2022 10:36:04 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[4], ClientName[user], FormattedName[<font color="#9777f0">user</font>], Type[CONNECT], Message[connected]
+Dec 22, 2022 10:36:04 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[4], ClientName[user], FormattedName[<font color="#9777f0">user</font>], Type[CONNECT], Message[connected]
+Dec 22, 2022 10:36:04 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[0], ClientName[null], Type[JOIN_ROOM], Message[lobby]
+Dec 22, 2022 10:36:04 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Room[lobby] Syncing client list of 3 to user
+Dec 22, 2022 10:36:04 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[1], ClientName[shrey], FormattedName[<font color="#7372a4">shrey</font>], Type[SYNC_CLIENT], Message[null]
+Dec 22, 2022 10:36:04 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[sam], FormattedName[<font color="#59e779">sam</font>], Type[SYNC_CLIENT], Message[null]
+Dec 22, 2022 10:36:20 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 3 clients
+Dec 22, 2022 10:36:20 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[4], ClientName[user], FormattedName[null], Type[DISCONNECT], Message[disconnected]
+Dec 22, 2022 10:36:20 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[4], ClientName[user], FormattedName[<font color="#9777f0">user</font>], Type[DISCONNECT], Message[disconnected]
+Dec 22, 2022 10:36:20 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[4], ClientName[user], FormattedName[<font color="#9777f0">user</font>], Type[DISCONNECT], Message[disconnected]
+Dec 22, 2022 10:36:24 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[5], ClientName[null], Type[CLIENT_ID], Message[null]
+Dec 22, 2022 10:36:24 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[5], ClientName[user], FormattedName[<font color="#b663ef">user</font>], Type[CONNECT], Message[connected]
+Dec 22, 2022 10:36:24 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[5], ClientName[user], FormattedName[<font color="#b663ef">user</font>], Type[CONNECT], Message[connected]
+Dec 22, 2022 10:36:24 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[5], ClientName[user], FormattedName[<font color="#b663ef">user</font>], Type[CONNECT], Message[connected]
+Dec 22, 2022 10:36:24 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[0], ClientName[null], Type[JOIN_ROOM], Message[lobby]
+Dec 22, 2022 10:36:24 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Room[lobby] Syncing client list of 3 to user
+Dec 22, 2022 10:36:24 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[1], ClientName[shrey], FormattedName[<font color="#7372a4">shrey</font>], Type[SYNC_CLIENT], Message[null]
+Dec 22, 2022 10:36:24 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[sam], FormattedName[<font color="#59e779">sam</font>], Type[SYNC_CLIENT], Message[null]
+Dec 22, 2022 10:36:28 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 3 clients
+Dec 22, 2022 10:36:28 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[5], ClientName[user], FormattedName[null], Type[DISCONNECT], Message[disconnected]
+Dec 22, 2022 10:36:28 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[5], ClientName[user], FormattedName[<font color="#b663ef">user</font>], Type[DISCONNECT], Message[disconnected]
+Dec 22, 2022 10:36:28 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[5], ClientName[user], FormattedName[<font color="#b663ef">user</font>], Type[DISCONNECT], Message[disconnected]
+Dec 22, 2022 10:36:30 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[6], ClientName[null], Type[CLIENT_ID], Message[null]
+Dec 22, 2022 10:36:30 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[6], ClientName[user], FormattedName[<font color="#dc6591">user</font>], Type[CONNECT], Message[connected]
+Dec 22, 2022 10:36:30 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[6], ClientName[user], FormattedName[<font color="#dc6591">user</font>], Type[CONNECT], Message[connected]
+Dec 22, 2022 10:36:30 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[6], ClientName[user], FormattedName[<font color="#dc6591">user</font>], Type[CONNECT], Message[connected]
+Dec 22, 2022 10:36:30 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[0], ClientName[null], Type[JOIN_ROOM], Message[lobby]
+Dec 22, 2022 10:36:30 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Room[lobby] Syncing client list of 3 to user
+Dec 22, 2022 10:36:30 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[1], ClientName[shrey], FormattedName[<font color="#7372a4">shrey</font>], Type[SYNC_CLIENT], Message[null]
+Dec 22, 2022 10:36:30 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[sam], FormattedName[<font color="#59e779">sam</font>], Type[SYNC_CLIENT], Message[null]
+Dec 22, 2022 10:36:39 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 3 clients
+Dec 22, 2022 10:36:50 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 3 clients
+Dec 22, 2022 10:37:09 PM Project.common.MyLogger info
+INFO: Project.server.Room: Room[lobby]: Sending message to 3 clients
+Dec 22, 2022 10:39:14 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[sam], FormattedName[null], Type[DISCONNECT], Message[disconnected]
+Dec 22, 2022 10:39:14 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[sam], FormattedName[<font color="#59e779">sam</font>], Type[DISCONNECT], Message[disconnected]
+Dec 22, 2022 10:39:14 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[2], ClientName[sam], FormattedName[<font color="#59e779">sam</font>], Type[DISCONNECT], Message[disconnected]
+Dec 22, 2022 10:39:17 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[6], ClientName[user], FormattedName[null], Type[DISCONNECT], Message[disconnected]
+Dec 22, 2022 10:39:17 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[6], ClientName[user], FormattedName[<font color="#dc6591">user</font>], Type[DISCONNECT], Message[disconnected]
+Dec 22, 2022 10:39:22 PM Project.common.MyLogger info
+INFO: Project.server.ServerThread: Sent payload: ClientId[1], ClientName[shrey], FormattedName[null], Type[DISCONNECT], Message[disconnected]
