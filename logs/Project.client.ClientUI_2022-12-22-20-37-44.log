@@ -1,0 +1,50 @@
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.views.UserInputPanel: Chosen username: sam
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.Client: Client connected
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.Client: Listening for server messages
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[sam], Type[CONNECT], Message[null]
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Adding sam[4]
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Clients in room: 1
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.ClientUI: Adding sam[4]
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: sam (4)
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=596]
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=786,height=600]
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Adding shrey[3]
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Clients in room: 2
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=554,height=600]
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.ClientUI: Adding shrey[3]
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: shrey (3)
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=236,height=596]
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=623,height=600]
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=603,height=600]
+Dec 22, 2022 8:43:37 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=609,height=600]
+Dec 22, 2022 8:43:46 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[sam], Type[MESSAGE], Message[hi]
+Dec 22, 2022 9:30:27 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Adding test[5]
+Dec 22, 2022 9:30:27 PM Project.common.MyLogger info
+INFO: Project.client.views.GamePanel: Clients in room: 3
+Dec 22, 2022 9:30:27 PM Project.common.MyLogger info
+INFO: Project.client.ClientUI: Adding test[5]
+Dec 22, 2022 9:30:27 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: test (5)
+Dec 22, 2022 9:30:27 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=181,height=596]
